@@ -1,0 +1,108 @@
+body {
+    background-color: #fafafa;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 15px;
+    font-family: 'Cookie', cursive;
+    font-size: 4.em;
+    font-weight: lighter;
+}
+
+.container-login {
+    margin: 3%;
+}
+
+.loginP1, .loginP2 {
+    background-color: #ffffff;
+    width: 320px;
+    padding: 15px;
+    margin-top: 10px;
+    border: solid 1px #d4cfcf;
+    text-align: center;
+}
+
+.loginP1 input {
+    background-color: #fafafa;
+    border: solid 1px #d4cfcf;
+    width: git;
+    height: 28px;
+    margin: 4px;
+}
+
+.loginP1 img {
+    margin: -5px;
+}
+
+button {
+    margin-top: 8px;
+    background-color: #56bae0;
+    color: #ffffff;
+    font-weight: 600;
+    width: 230px;
+    height: 28px;
+    border: none;
+}
+
+.loginP2 a {
+    text-decoration: none;
+    color: #00a3e4;
+}
+
+.ou {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    height: 1px;
+    width: 113px;
+    background-color: #d4cfcf;
+}
+
+.esqueceuSenha {
+    font-size: 15px;
+}
+
+.fbEntrar, .esqueceuSenha {
+    text-decoration: none;
+    color: #385185;
+}
+
+.intro {
+    padding: 2% 0 5%;
+}
+
+.intro-img {
+    height: 590px; 
+}
+
+.obtenha-app, footer {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer a {
+    font-size: 14px;
+    text-decoration: none;
+    padding-right: 8px;
+    color: #666262;
+}
+
+@media(max-width: 875px) {
+    .intro {
+        display: none;
+    }
+}
+
+@media(max-width: 450px) {
+    .loginP1, .loginP2 {
+        border: none;
+    }
+}
