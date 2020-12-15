@@ -10,7 +10,7 @@ main {
 h1 {
     margin: 15px;
     font-family: 'Cookie', cursive;
-    font-size: 4.em;
+    font-size: 4.1em;
     font-weight: lighter;
 }
 
@@ -30,7 +30,7 @@ h1 {
 .loginP1 input {
     background-color: #fafafa;
     border: solid 1px #d4cfcf;
-    width: git;
+    width: 70%;
     height: 28px;
     margin: 4px;
 }
